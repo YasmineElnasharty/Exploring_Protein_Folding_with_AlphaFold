@@ -1,0 +1,9 @@
+• Understand the importance of protein folding in biological functions.
+• Assess Alpha Fold's impact on predicting protein structures.
+• Explore applications in drug discovery, genomics, and precision medicine.
+
+both protein 1 and 2 are from same organism which is:
+Yersinia enterocolitica
+
+this is the complete protein structure name:
+Complex of the Yersinia enterocolitica Type III secretion proteins YscX and YscY

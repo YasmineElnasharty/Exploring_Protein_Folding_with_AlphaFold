@@ -1,0 +1,82 @@
+2024-08-15 21:08:40,392 Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA
+2024-08-15 21:08:40,394 Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2024-08-15 21:08:45,329 Running on GPU
+2024-08-15 21:08:45,625 Found 5 citations for tools or databases
+2024-08-15 21:08:45,625 Query 1/1: af42 (length 42)
+2024-08-15 21:08:47,214 Could not generate input features af42: Invalid character in the sequence:  
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/colabfold/batch.py", line 1512, in run
+    = generate_input_feature(query_seqs_unique, query_seqs_cardinality, unpaired_msa, paired_msa,
+  File "/usr/local/lib/python3.10/dist-packages/colabfold/batch.py", line 1039, in generate_input_feature
+    feature_dict = build_monomer_feature(
+  File "/usr/local/lib/python3.10/dist-packages/colabfold/batch.py", line 892, in build_monomer_feature
+    **pipeline.make_sequence_features(
+  File "/usr/local/lib/python3.10/dist-packages/alphafold/data/pipeline.py", line 40, in make_sequence_features
+    features['aatype'] = residue_constants.sequence_to_onehot(
+  File "/usr/local/lib/python3.10/dist-packages/alphafold/common/residue_constants.py", line 580, in sequence_to_onehot
+    raise ValueError(f'Invalid character in the sequence: {aa_type}')
+ValueError: Invalid character in the sequence:  
+2024-08-15 21:08:47,219 Done
+2024-08-15 21:15:22,136 Starting prediction on 2024-08-15 UTC time
+2024-08-15 21:15:22,137 Installing ColabFold on Google Colab virtual machine.
+2024-08-15 21:15:22,396 Running on GPU
+2024-08-15 21:15:22,429 Found 5 citations for tools or databases
+2024-08-15 21:15:22,431 Query 1/1: af42 (length 42)
+2024-08-15 21:15:24,102 Could not generate input features af42: Invalid character in the sequence:  
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/colabfold/batch.py", line 1512, in run
+    = generate_input_feature(query_seqs_unique, query_seqs_cardinality, unpaired_msa, paired_msa,
+  File "/usr/local/lib/python3.10/dist-packages/colabfold/batch.py", line 1039, in generate_input_feature
+    feature_dict = build_monomer_feature(
+  File "/usr/local/lib/python3.10/dist-packages/colabfold/batch.py", line 892, in build_monomer_feature
+    **pipeline.make_sequence_features(
+  File "/usr/local/lib/python3.10/dist-packages/alphafold/data/pipeline.py", line 40, in make_sequence_features
+    features['aatype'] = residue_constants.sequence_to_onehot(
+  File "/usr/local/lib/python3.10/dist-packages/alphafold/common/residue_constants.py", line 580, in sequence_to_onehot
+    raise ValueError(f'Invalid character in the sequence: {aa_type}')
+ValueError: Invalid character in the sequence:  
+2024-08-15 21:15:24,103 Done
+2024-08-15 21:20:16,230 Starting prediction on 2024-08-15 UTC time
+2024-08-15 21:20:16,230 Installing ColabFold on Google Colab virtual machine.
+2024-08-15 21:22:02,305 Running on GPU
+2024-08-15 21:22:02,308 Found 4 citations for tools or databases
+2024-08-15 21:22:02,309 Query 1/1: af199 (length 199)
+2024-08-15 21:22:03,117 Sleeping for 5s. Reason: PENDING
+2024-08-15 21:22:08,894 Sleeping for 7s. Reason: RUNNING
+2024-08-15 21:22:16,732 Sleeping for 9s. Reason: RUNNING
+2024-08-15 21:22:26,518 Sleeping for 8s. Reason: RUNNING
+2024-08-15 21:22:35,294 Sleeping for 9s. Reason: RUNNING
+2024-08-15 21:22:45,156 Sleeping for 6s. Reason: RUNNING
+2024-08-15 21:22:51,935 Sleeping for 10s. Reason: RUNNING
+2024-08-15 21:23:04,661 Sleeping for 8s. Reason: PENDING
+2024-08-15 21:23:13,450 Sleeping for 8s. Reason: RUNNING
+2024-08-15 21:23:22,254 Sleeping for 7s. Reason: RUNNING
+2024-08-15 21:23:30,119 Sleeping for 5s. Reason: RUNNING
+2024-08-15 21:23:37,327 Setting max_seq=286, max_extra_seq=1
+2024-08-15 21:24:20,297 alphafold2_multimer_v3_model_1_seed_000 recycle=0 pLDDT=83.5 pTM=0.823 ipTM=0.822
+2024-08-15 21:24:31,812 alphafold2_multimer_v3_model_1_seed_000 recycle=1 pLDDT=88.4 pTM=0.864 ipTM=0.848 tol=1.11
+2024-08-15 21:24:43,341 alphafold2_multimer_v3_model_1_seed_000 recycle=2 pLDDT=87.1 pTM=0.854 ipTM=0.821 tol=0.132
+2024-08-15 21:24:43,342 alphafold2_multimer_v3_model_1_seed_000 took 59.1s (2 recycles)
+2024-08-15 21:24:56,088 alphafold2_multimer_v3_model_2_seed_000 recycle=0 pLDDT=83.8 pTM=0.814 ipTM=0.827
+2024-08-15 21:25:07,792 alphafold2_multimer_v3_model_2_seed_000 recycle=1 pLDDT=89.1 pTM=0.866 ipTM=0.856 tol=2.79
+2024-08-15 21:25:19,509 alphafold2_multimer_v3_model_2_seed_000 recycle=2 pLDDT=87.3 pTM=0.854 ipTM=0.826 tol=0.257
+2024-08-15 21:25:19,511 alphafold2_multimer_v3_model_2_seed_000 took 35.0s (2 recycles)
+2024-08-15 21:25:31,792 alphafold2_multimer_v3_model_3_seed_000 recycle=0 pLDDT=86.1 pTM=0.841 ipTM=0.833
+2024-08-15 21:25:43,824 alphafold2_multimer_v3_model_3_seed_000 recycle=1 pLDDT=88.9 pTM=0.862 ipTM=0.849 tol=0.611
+2024-08-15 21:25:55,719 alphafold2_multimer_v3_model_3_seed_000 recycle=2 pLDDT=88.7 pTM=0.862 ipTM=0.846 tol=0.204
+2024-08-15 21:25:55,720 alphafold2_multimer_v3_model_3_seed_000 took 35.7s (2 recycles)
+2024-08-15 21:26:08,162 alphafold2_multimer_v3_model_4_seed_000 recycle=0 pLDDT=84.7 pTM=0.836 ipTM=0.824
+2024-08-15 21:26:20,190 alphafold2_multimer_v3_model_4_seed_000 recycle=1 pLDDT=90.2 pTM=0.87 ipTM=0.871 tol=0.719
+2024-08-15 21:26:32,237 alphafold2_multimer_v3_model_4_seed_000 recycle=2 pLDDT=89.6 pTM=0.866 ipTM=0.86 tol=0.228
+2024-08-15 21:26:32,238 alphafold2_multimer_v3_model_4_seed_000 took 36.0s (2 recycles)
+2024-08-15 21:26:45,002 alphafold2_multimer_v3_model_5_seed_000 recycle=0 pLDDT=84 pTM=0.827 ipTM=0.817
+2024-08-15 21:26:57,093 alphafold2_multimer_v3_model_5_seed_000 recycle=1 pLDDT=89.3 pTM=0.864 ipTM=0.863 tol=0.623
+2024-08-15 21:27:09,145 alphafold2_multimer_v3_model_5_seed_000 recycle=2 pLDDT=88.3 pTM=0.858 ipTM=0.847 tol=0.236
+2024-08-15 21:27:09,146 alphafold2_multimer_v3_model_5_seed_000 took 36.2s (2 recycles)
+2024-08-15 21:27:09,833 reranking models by 'multimer' metric
+2024-08-15 21:27:09,834 rank_001_alphafold2_multimer_v3_model_4_seed_000 pLDDT=89.6 pTM=0.866 ipTM=0.86
+2024-08-15 21:27:09,835 rank_002_alphafold2_multimer_v3_model_5_seed_000 pLDDT=88.3 pTM=0.858 ipTM=0.847
+2024-08-15 21:27:09,836 rank_003_alphafold2_multimer_v3_model_3_seed_000 pLDDT=88.7 pTM=0.862 ipTM=0.846
+2024-08-15 21:27:09,836 rank_004_alphafold2_multimer_v3_model_2_seed_000 pLDDT=87.3 pTM=0.854 ipTM=0.826
+2024-08-15 21:27:09,837 rank_005_alphafold2_multimer_v3_model_1_seed_000 pLDDT=87.1 pTM=0.854 ipTM=0.821
+2024-08-15 21:27:12,136 Done
