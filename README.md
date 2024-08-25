@@ -17,13 +17,7 @@ This repository demonstrates the use of **AlphaFold**, a revolutionary AI-driven
 - **AlphaFold:** For predicting protein structures from amino acid sequences.
 - **ColabFold:** A Colab-based implementation of AlphaFold for accessible structure prediction.
 - **ChimeraX:** For visualizing and analyzing predicted protein structures.
-
-## Repository Structure
-- `notebooks/`: Jupyter notebooks used to run AlphaFold predictions via ColabFold.
-- `data/`: Contains protein sequence data and alignment files.
-- `visualizations/`: Outputs from ChimeraX, including 3D structure visualizations.
-- `scripts/`: Python scripts to automate the prediction and visualization process.
-
+  
 ## Results
 The predicted structures of **Chaperone protein YscY** and **Yop translocation protein** are provided, with detailed visualizations and analyses. The results highlight AlphaFold’s ability to accurately predict complex protein folding patterns, demonstrating its potential in various biological research fields.
 
