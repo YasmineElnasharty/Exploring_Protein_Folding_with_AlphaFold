@@ -1,4 +1,4 @@
-# Unraveling_Protein_Folding_with_AlphaFold
+# Exploring_Protein_Folding_with_AlphaFold
 
 ## Overview
 This repository demonstrates the use of **AlphaFold**, a revolutionary AI-driven system by DeepMind, to predict the 3D structures of proteins based on their amino acid sequences. The project focuses on two proteins: **Chaperone protein YscY** and **Yop translocation protein**, and provides an in-depth exploration of their predicted structures.
