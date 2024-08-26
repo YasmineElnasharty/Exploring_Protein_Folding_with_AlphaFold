@@ -1,4 +1,4 @@
-# Unraveling_Protein_Folding_with_AlphaFold
+# Exploring_Protein_Folding_with_AlphaFold
 
 ## Overview
 This repository demonstrates the use of **AlphaFold**, a revolutionary AI-driven system by DeepMind, to predict the 3D structures of proteins based on their amino acid sequences. The project focuses on two proteins: **Chaperone protein YscY** and **Yop translocation protein**, and provides an in-depth exploration of their predicted structures.
@@ -17,13 +17,7 @@ This repository demonstrates the use of **AlphaFold**, a revolutionary AI-driven
 - **AlphaFold:** For predicting protein structures from amino acid sequences.
 - **ColabFold:** A Colab-based implementation of AlphaFold for accessible structure prediction.
 - **ChimeraX:** For visualizing and analyzing predicted protein structures.
-
-## Repository Structure
-- `notebooks/`: Jupyter notebooks used to run AlphaFold predictions via ColabFold.
-- `data/`: Contains protein sequence data and alignment files.
-- `visualizations/`: Outputs from ChimeraX, including 3D structure visualizations.
-- `scripts/`: Python scripts to automate the prediction and visualization process.
-
+  
 ## Results
 The predicted structures of **Chaperone protein YscY** and **Yop translocation protein** are provided, with detailed visualizations and analyses. The results highlight AlphaFold’s ability to accurately predict complex protein folding patterns, demonstrating its potential in various biological research fields.
 
